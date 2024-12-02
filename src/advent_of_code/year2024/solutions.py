@@ -15,3 +15,13 @@ def day1(path: str) -> tuple[int]:
     part2 = duckdb.query(query2).fetchone()[0]
 
     return (part1, part2)
+
+
+def day2(path: str) -> int:
+    with open("src/advent_of_code/year2024/day2_part1.sql", "r") as file:
+        query1 = file.read()
+    
+    query1 = query1.replace("{{ path }}", path)
+    part1 = duckdb.query(query1).fetchone()[0]
+
+    return part1

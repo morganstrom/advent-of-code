@@ -1,6 +1,7 @@
 .venv
 .ruff_cache
 .pytest_cache
-dist
+dist/
+inputs/year2024/*.txt
 *__pycache__
 *.DS_Store
