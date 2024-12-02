@@ -1,0 +1,10 @@
+[sqlfluff]
+dialect = duckdb
+templater = jinja
+
+[sqlfluff:indentation]
+tab_space_size = 2
+indent_unit = space
+
+[sqlfluff:templater:jinja:context]
+path = "tests/inputs/day1.txt"
