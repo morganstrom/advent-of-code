@@ -1,7 +1,5 @@
 # Advent of code 2024
 
-Ambition: solve puzzles using DuckDB!
-
 ## Prerequisites
 
 * uv
