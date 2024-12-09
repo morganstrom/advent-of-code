@@ -31,6 +31,13 @@ uvx sqlfluff lint .
 Run code to print solutions to sdout:
 
 ```
-uv run year2024
+uv run advent_of_code
 ```
 
+## Packaging?
+
+If you want to build a Python wheel that can be shared with others or published on PyPI:
+
+```
+uv build
+```

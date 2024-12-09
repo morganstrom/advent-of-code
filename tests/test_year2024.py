@@ -1,5 +1,6 @@
 from advent_of_code.year2024.solutions import day1, day2, day3
 
+
 def test_day1():
     # given
     path = "tests/inputs/day1.txt"

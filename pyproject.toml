@@ -10,7 +10,7 @@ dependencies = [
 ]
 
 [project.scripts]
-year2024 = "advent_of_code:year2024"
+advent_of_code = "advent_of_code.__main__:main"
 
 [build-system]
 requires = ["hatchling"]
